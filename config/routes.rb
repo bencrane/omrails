@@ -1,4 +1,9 @@
 Omrails::Application.routes.draw do
+    
+  get 'about' => 'pages#about'
+
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -14,7 +19,7 @@ Omrails::Application.routes.draw do
   #   resources :products
 
   # Sample resource route with options:
-  #   resources :products do
+  #   resources :products do jnhjjhjhjhhnhyttt
   #     member do
   #       get 'short'
   #       post 'toggle'
